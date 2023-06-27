@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 55vw;
+}
+
+.titulo{
+    width: 100vw;
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: darkred;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.tabla{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 8px;
+}
+
+.primeraFila{
+    background-color: black;
+    color: white;
+}
+
+.segundaFila{
+    background-color: rgb(83, 17, 0);
+    color: white;
+}
+
+.terceraFila{
+    background-color: red;
+    color: white;
+}
+
+.cuartaFila{
+    background-color: rgb(216, 120, 2);
+    color: white;
+}
+
+.quintaFila{
+    background-color:rgb(255, 255, 0);
+    color: white;
+}
+
+.sextaFila{
+    background-color: green;
+    color: white;
+}
+
+.septimaFila{
+    background-color: blue;
+    color: white;
+}
+
+.octavaFila{
+    background-color: rgb(170, 32, 224);
+    color: white;
+}
+
+.novenaFila{
+    background-color: dimgray;
+}
+
+.undecimaFila{
+    background-color: rgb(189, 189, 0);
+}
+
+.duodecimaFila{
+    background-color: rgb(170, 170, 170);
+}
